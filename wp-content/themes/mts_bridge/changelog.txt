@@ -1,0 +1,251 @@
+v1.1.7 (Apr 14, 2020)
+----------------------------
+- Options Panel will work even without the MyThemeShop Updater plugin, but you will not receive any future updates without this plugin
+- Added 13 new Google fonts in the typography options
+
+Files Updated:
+- functions.php
+- functions/plugin-activation.php
+- functions/theme-actions.php
+- lang/bridge.pot
+- style.css
+
+
+v1.1.6 (April 8, 2020)
+-----------------------------
+- Released Bridge premium theme for free
+- Added 14 new Google fonts in the typography options
+- Fixed 'data-vocabulary' schema warning in the breadcrumbs
+
+Files Updated:
+- functions.php
+- functions/theme-actions.php
+- functions/plugin-activation.php
+- functions/rm-seo.php
+- functions/rank-math-notice.php
+- page-templates/contact.php
+- page.php
+- single.php
+- lang/bridge.pot
+- style.css
+
+
+v1.1.5 (Nov 15, 2019)
+-----------------------------
+- Fixed notices related to WP 5.3
+
+Files Updated:
+- functions.php
+- lang/bridge.pot
+- options/options.php
+- style.css
+
+
+v1.1.4 (Aug 27, 2019)
+-----------------------------
+- Fixed Footer Widget styling issue on mobile screen
+
+ Files Updated:
+- css/responsive.css
+- functions.php
+- lang/bridge.pot
+- style.css
+
+
+v1.1.3 (Jul 16, 2019)
+-----------------------------
+- Fixed 'Upload Theme' button not working
+
+ Files Updated:
+- functions/plugin-activation.php
+- functions/rm-seo.php
+- functions.php
+- options/css/options.css
+- style.css
+
+
+v1.1.2 (Jan 12, 2019)
+-----------------------------
+- Updated the Rank Math's auto installation process to give the control back to the users
+- Fixed MyThemeShop Connect install issue on Recommended Plugins page
+
+Files Updated:
+- functions.php
+- functions/rank-math-notice.php
+- functions/rm-seo.php
+- functions/theme-actions.php
+- images/rank-math-banner.jpg
+- lang/bridge.pot
+- style.css
+
+
+v1.1.1 (Nov 21, 2018)
+-----------------------------
+- Added More SEO Tweaks
+- Added better integration with Rank Math SEO plugin
+- Added integration for Rank Math SEO Breadcrumbs
+- Fixed Twitter widget issue
+- Improved comments cookies opt-in checkbox.
+- Replaced inline transparent 1x1 image
+
+Files Updated:
+- functions.php
+- functions/cacert.pem
+- functions/rm-seo.php
+- functions/twitteroauth.php
+- functions/widget-tweets.php
+- lang/bridge.pot
+- page-templates/contact.php
+- page.php
+- single.php
+- style.css
+
+
+v1.1.0 (Oct 3, 2018)
+-----------------------------
+- Added life-changing SEO support with an included SEO plugin
+- Added compatibility for Gutenberg editor
+- Security & licensing fixes
+- Fixed WooCommerce Product Search button styling issue
+- Fixed WooCommerce Layered Nav Dropdown button styling issue
+- Fixed other minor CSS issues
+- Important fixes for better performance
+
+Files Updated:
+- functions.php
+- style.css
+- css/rtl.css
+- css/woocommerce2.css
+- functions/plugin-activation.php
+- functions/rm-seo.php
+- functions/theme-actions.php
+- lang/bridge.pot
+
+
+v1.0.7 (May 21, 2018)
+-----------------------------
+- Added GDPR Compliant Comment & Contact Form
+- Fixed column alignment issue with the Elementor plugin
+
+Files Updated:
+- comments.php
+- css\rtl.css
+- functions\contact-form.php
+- style.css
+- js\contact.js
+
+
+v1.0.6 (Apr 9, 2018)
+-----------------------------
+- Added brand new social share icons layout
+- Added Reddit support in social sharing buttons
+- Added few performance perks
+- Fixed a couple of security issues
+- Fixed minor CSS issues
+
+Files Updated:
+- style.css
+- functions.php
+- theme-options.php
+- css/responsive.css
+- css/rtl.css
+- js/customscript.js
+- functions/nav-menu.php
+- functions/theme-actions.php
+- functions/widget-ad125.php
+- functions/widget-ad300.php
+- functions/widget-ad728.php
+- functions/widget-authorposts.php
+- functions/widget-catposts.php
+- functions/widget-fblikebox.php
+- functions/widget-instagram.php
+- functions/widget-popular.php
+- functions/widget-recentposts.php
+- functions/widget-relatedposts.php
+- functions/widget-social.php
+- functions/widget-tweets.php
+
+
+v1.0.5 (Mar 24, 2018)
+-----------------------------
+- Fixed plugin install issue on "Install Required Plugins" page
+
+Files Updated:
+- style.css
+- functions.php
+- functions/plugin-activation.php
+- js/addons.js
+- css/addons.css
+
+
+v1.0.4 (Mar 10, 2018)
+-----------------------------
+- Fixed Related Posts notice issue
+
+Files Updated:
+- style.css
+- functions.php
+- options/options.php
+- lang/bridge.pot
+
+
+v1.0.3 (Feb 1, 2018)
+-----------------------------
+- Added description on archive pages for SEO
+- Added new Ad-Sense widget to insert ad codes (MTS Adcode)
+- Added WP Subscribe plugin in Essential Plugins list
+- Improved Schema Markup code
+- Improved enqueue args code
+- Improved Related posts code
+- Improved sidebar code
+- Improved overall code for better performance
+- Fixed PHP warnings
+- Fixed Illegal string offset issue in Social Profile Icons widget
+- Fixed color picker issue in the theme Options Panel
+- Fixed Group field input checkbox
+
+Files Updated:
+- style.css
+- functions.php
+- theme-options.php
+- header.php
+- archive.php
+- searchform.php
+- css/responsive.css
+- functions/welcome-message.php
+- functions/theme-actions.php
+- functions/widget-social.php
+- functions/plugin-activation.php
+- options/options.php
+- options/css/options.css
+- options/fields/layout2/field_layout2.php
+- options/fields/group/field_group.js
+
+v1.0.2 (Dec 20, 2017)
+-----------------------------
+- Fixed featured area thumbnail issue in Firefox
+
+Files updated:
+- functions.php
+- style.css
+
+
+v1.0.1 (Nov 4, 2017)
+-----------------------------
+- Fixed Author meta info in the single post on mobile devices
+- Fixed Footer widgets on mobile devices
+- Fixed Theme translation issue
+- Added Static page support on homepage
+- Fixed Social button issue on single posts
+- Fixed minor CSS issues
+
+Files updated:
+- functions.php
+- style.css
+- css/responsive.css
+- lang/bridge.pot
+
+
+v1.0 (Sep 25, 2017)
+-----------------------------
+- Theme released

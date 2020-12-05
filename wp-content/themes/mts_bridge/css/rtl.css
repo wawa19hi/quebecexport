@@ -1,0 +1,383 @@
+blockquote { padding: 0 27px 20px 10px }
+blockquote:after {right: 0;content: "\f10e";}
+dt {
+    float: right;
+    clear: right;
+    text-align: right;
+}
+/*-[ Header ]-----------------------*/
+header { float: right }
+.main-header { float: right }
+#header { float: right }
+#header h1, #header h2 { float: right }
+#logo a { float: right }
+#logo img { float: right }
+.logo-wrap { 
+    float: right; 
+    margin-right: 0;
+    margin-left: 20px;
+}
+.site-description {
+    float: right;
+    text-align: right;
+    margin-left: 0;
+    margin-right: 20px;
+}
+.header-social { float: left }
+#site-header .widget_search { float: left }
+#site-header #searchform .fa-search {
+    right: inherit;
+    left: 10px;
+}
+#s { float: right }
+.sbutton, #searchsubmit { float: left }
+#searchform .fa-search {
+    right: inherit;
+    left: 10px;
+}
+#sidebar .wp-post-image, #site-footer .wp-post-image, .post img {
+    margin-right: 0;
+    margin-left: 0;
+}
+.wp-block-archives.alignnone { margin: 1.5em 2.5em 1.571em 0 }
+.rtl .woocommerce .woocommerce-widget-layered-nav-dropdown__submit { float: right }
+/*-[ Navigation ]-----------------*/
+#secondary-navigation { float: right }
+#secondary-navigation .navigation .menu > li {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.menu-item-has-children > a {
+    padding-right: 0;
+    padding-left: 20px;
+}
+.menu-item-has-children > a:after {
+    right: inherit;
+    left: 8px;
+}
+.navigation ul li { float: right }
+.navigation ul ul a, .navigation ul ul a:link, .navigation ul ul a:visited {
+    padding: 9px 20px 9px 45px;
+    border-right: 0;
+    border-left: 0;
+}
+.navigation ul ul ul {right: 150px;}
+#primary-navigation .navigation ul ul ul {
+    left: inherit;
+    right: 150px;
+}
+#primary-navigation { float: right }
+#primary-navigation .navigation .menu > li { 
+    margin-right: 0;
+    margin-left: 6.5px; 
+}
+#primary-navigation .navigation .menu-item-has-children > a {
+    padding-left: 25px;
+    padding-right: 15px;
+}
+#primary-navigation .menu-item-has-children > a:after { right: inherit }
+/*-[ Content ]--------------------*/
+#content_box { float: right }
+article ul { margin: 1.5em 1.9em 1.571em 0 }
+article ol { margin: 1.5em 1.9em 1.571em 0 }
+.post { float: right }
+.readMore { float: left }
+.ss-full-width #content_box {
+    padding-left: 0;
+    padding-right: 0;
+}
+.wp-post-image { float: right }
+.featured-thumbnail { float: right }
+.post-info {
+    float: right;
+}
+.post-info > span { 
+    margin-right: 0; 
+    margin-left: 7px; 
+}
+.single-post-category {
+    float: right;
+}
+
+.post-info-left {
+    float: right;
+    text-align: right;
+}
+.theauthorimage {
+    float: right;
+    margin-right: 0;
+    margin-left: 6px;
+}
+.thelike i, .thedislike i { margin-right: 0; margin-left: 5px; }
+.post-info-right { float: left }
+.single_post .post-info-left { float: right; text-align: right; }
+.single_post .theauthorimage { margin-left: 0 }
+.single_post .theauthorimage img {
+    margin-right: 0;
+    margin-left: 14px;
+}
+/**********latest-posts***********/
+.featuredPost { float: right }
+.featuredBox .firstpost { float: right }
+.featuredBox .featured-Post .featured-thumbnail {
+    margin-right: 0;
+    margin-left: 14px;
+}
+.featuredBox .featured-Post { float: left }
+.featuredbox-category { right: 149px }
+.featuredBox .firstpost header {
+    left: inherit;
+    right: 0;
+    padding: 10px 20px 10px 10px;
+}
+article header { float: right }
+.latestPost { float: right }
+.latestPost:nth-of-type(5n+1), .latestPost:nth-of-type(5n+3) {
+    clear: right;
+    margin-left: 2.06%;
+    margin-right: 0;
+}
+
+.article .iconlist { margin-right: 0 }
+#tabber .inside { padding: 0 0 15px 0 }
+#tabber ul.tabs li {
+    float: right;
+    margin-right: 0;
+}
+#tabber ul.tabs li a {
+    float: right;
+    padding: 2px 0 2px 0;
+}
+#tabber ul.tabs li.tab-recent-posts a { border-right: 0 }
+#tabber .inside li {
+    padding: 15px 0 0 0;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#tabber .tab-thumb {
+    float: right;
+    margin: 0px 0px 0px 12px;
+}
+#tabber .inside .tabsSep { float: right }
+.widget_nav_menu .fa > a, .widget_nav_menu .fa > a { padding-right: 5px }
+.toggle-menu .toggle-caret { right: inherit; left: 0; }
+/*-[ Tables ]--------------------*/
+table { text-align: right }
+table th, table td { text-align: right }
+/*-[ Search Form ]------------------*/
+#site-header #searchform {
+    right: inherit;
+    left: 0;
+}
+#site-header #s { 
+    float: left;
+    padding-right: 0;
+    padding-left: 40px; 
+}
+#site-header .sbutton, #site-header #searchsubmit { left: 0; right: inherit; }
+/* Microphone icon position fix */
+input::-webkit-input-speech-button {
+    margin-left: 14px;
+    margin-right: 4px;
+}
+/*-[ Read More ]-------------------*/
+.read-more { margin: 0 10px 0 0 }
+/*-[ Bottom Ad in post ]-----------*/
+.bottomad { float: right }
+#sidebar .wp-post-image, #site-footer .wp-post-image, .widget .wp-post-image, .widget .wpt_thumb_small, .wpt_avatar, .widget .wp_review_tab_thumb_small {
+    margin-left: 14px;
+    margin-right: 0;
+    float: right;
+}
+.widget { float: right }
+.widget li {margin-right: 17px;margin-left: 0;}
+.widget h3 { margin: 0px 0 15px 0 }
+.advanced-recent-posts li, .popular-posts li, .category-posts li, .related-posts-widget li, .author-posts-widget li {
+    padding: 7px 36px 7px 7px;
+}
+.advanced-recent-posts li:after, .popular-posts li:after, .category-posts li:after, .related-posts-widget li:after, .author-posts-widget li:after {
+    left: inherit;
+    right: 0;
+}
+.rtl .shareit.floating { margin: 0 -430px 0 }
+.rtl .share-item.pinbtn { width: 63px }
+.social-profile-icons ul li { float: right }
+.f-widget {
+    float: right;
+    margin-left: 8%;
+}
+.copyrights { float: right }
+/*-[ Back To Top ]---------------------------*/
+.top { float: left }
+.toplink .fa-chevron-up { left: 0 }
+.toplink { padding-left: 27px }
+#move-to-top { left: 26px }
+/*-[ Related Posts ]---------------------------*/
+
+/*-[ Post Tags ]---------------------------------*/
+.tags a { margin-right: 0; margin-left: 2px; }
+/*-[ Author Box ]--------------------------------*/
+.postauthor img {
+    float: right;
+    margin: 5px 0 0 20px;
+}
+.left { float: right }
+.right { float: left }
+.last { margin-left: 0 }
+/*-[ Tag widget ]------------------------------*/
+.tagcloud a {
+    float: right;
+    margin-right: 0;
+    margin-left: 6px;
+}
+/*-[ Subscribe Widget ]------------------------*/
+.mts-subscribe input[type="text"] { float: right }
+#mts_subscribe_widget { border: 1px solid #F1F1F1 !important }
+.mts-subscribe input[type="submit"] {
+    float: left;
+    left: 0;
+    right: auto;
+}
+/*-[ Ad Widgets ]------------------------------*/
+.ad-125 li {
+    float: right;
+    padding-right: 0;
+    margin-right: 0;
+}
+.ad-125 li:nth-child(2n+2) { float: left!important }
+#wp-calendar td { border-left: 1px solid #F1F4F6 }
+#wp-calendar #prev {
+    text-align: right;
+    padding-right: 12px;
+}
+/*-[Comments]--------------*/
+.nocomments { float: right }
+#commentsAdd { float: right }
+#comments .avatar {
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
+}
+.comment time { padding-right: 10px }
+ul.children .commentImageLeft {
+    border-right: 1px solid #c1bbb6;
+    right: -70px;
+}
+input#author, input#email, inpu#urlt { margin-left: 10px }
+#commentform input#submit, .contactform #submit { float: left }
+.contactform #submit { float: right }
+ol.commentlist { margin-right: 0 }
+.reply a { float: right }
+.commentlist .children {
+    float: right;
+    padding-left: 0;
+    padding-right: 8.20%;
+}
+.avatar { float: right }
+#commentform p { float: right }
+#commentform p label { padding-right: 10px }
+.rtl #commentform .comment-form-cookies-consent label { margin-left: 0; margin-right: 8px; }
+.rtl .contact-form .mtscontact_consent label { margin-left: 0; margin-right: 6px; }
+.cancel-comment-reply a { float: left }
+.comment-notes .required { padding-right: 0 }
+.commentmetadata li {
+    margin-left: 0;
+    margin-right: 18px;
+}
+/*-[ pagination ]------------------*/
+.pagination { float: right }
+.pagination ul li { float: right }
+.pagination .nav-previous { float: right }
+.pagination .nav-next { float: left }
+.single .pagination a .currenttext, .single .pagination a:hover .currenttext { margin-left: 0 }
+.contact-form.loading:after { right: 0 }
+.ajax-search-results-container { right: 0 }
+.ajax-search-results-container.loading:after {
+    left: 0;
+    right: 0;
+}
+.ajax-search-results .wp-post-image {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.ajax-search-meta .results-count { float: right }
+.ajax-search-meta .results-link { float: left }
+/*-[ Load More ]-------------------*/
+.pace .pace-progress { right: 0 }
+pre:before { right: inherit; left: 14px }
+#load-posts .fa {
+    margin-left: 8px;
+    margin-right: 0;
+}
+/*-[ WP Tab Widget ]---------------*/
+.wpt_widget_content .inside li, .widget .wp_review_tab_widget_content .tab-content li { text-align: right!important }
+/*-[ WP Review ]-------------------*/
+.latestPost-review-wrapper {
+    left: 10px;
+    right: inherit;
+}
+.widget .wp-review-tab-pagination a.next { float: left }
+.widget .wp-review-tab-pagination a.prev { float: right }
+/*-[ My WP Mega Menu ]-------------------*/
+#wpmm-megamenu .wpmm-post i { margin-left: 4px; margin-right: 0; }
+.wpmm-entry-date,.wpmm-entry-author {
+    float: right;
+    margin-right: 0;
+    margin-left: 7px;
+}
+.wpmm-entry-author { margin-left: 0; }
+/*Social Share*/
+.rtl .shareit.top, .rtl .shareit.bottom { 
+    margin: 0; 
+    float: right;
+}
+.rtl .shareit-default .share-item.linkedinbtn {
+    text-align: center;
+    margin-right: 0;
+}
+.rtl .shareit.bottom .share-item.facebooksharebtn, .rtl .shareit.top .share-item.facebooksharebtn{ margin-top:-6px }
+.rtl .shareit .share-item.pinbtn {
+    margin-right:0;
+    margin-left:20px;
+}
+.rtl .shareit.bottom .share-item.pinbtn, .rtl .shareit-default.top .share-item.pinbtn{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.rtl .shareit .share-item.reddit img { float:right }
+.rtl .shareit .share-item.pinbtn a{ background-position-x:right }
+.rtl .shareit .share-item .stumble-icon {
+    float:right;
+    margin-right: 0;
+    margin-left: 2px;
+}
+.rtl .shareit .share-item .stumble-text { float:right }
+.rtl .share-item.pinbtn a { padding-left: 4px }
+.modern-share-item .fa {
+    margin-right: 0;
+    margin-left: 4px;
+}
+.rtl .modern-share-item {
+    float: right;
+    margin-left: 12px;
+    margin-right: 0; 
+}
+@media screen and (max-width:865px) {
+    .rtl a#pull { padding-right: 0!important }
+    .rtl a#pull:after {
+        right: inherit;
+        left: -18px;
+    }
+    #secondary-navigation .navigation .menu a { border-left: 0 }
+    .rtl .navigation .toggle-caret { 
+        border-left: 0; 
+        border-right: 1px solid rgba(255, 255, 255, 0.2); 
+        right: inherit;
+        left: 0;
+    }
+    .rtl #secondary-navigation .navigation .menu a { text-align: right }
+    .rtl #secondary-navigation a { 
+        padding-left: 0; 
+        padding-right: 20px; 
+    }
+}
